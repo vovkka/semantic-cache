@@ -52,22 +52,22 @@
 
 ### Метрики производительности
 
-```json
+```python
 {
-   "total_prompts": 50, // Total number of prompts processed
-   "cache_hits": 19, // Number of prompts that were served from cache
-   "tokens_with_cache": 6640, // Total number of tokens processed with cache
-   "tokens_without_cache": 9197, // Total number of tokens processed without cache
-   "price_with_cache": 0.011727699999999994, // Cost incurred with cache usage
-   "price_without_cache": 0.018393999999999997, // Cost incurred without cache usage
-   "price_saved_percent": 36.24170925301732, // Percentage of cost saved by using cache
-   "avg_response_time": 0.17915353298187256, // Average response time in seconds
-   "total_time": 8.957676649093628, // Total time taken for all prompts in seconds
-   "cache_hit_rate": 0.38, // Cache hit rate as a fraction
-   "avg_prompt_tokens": 16.34, // Average number of tokens per prompt
-   "avg_response_tokens": 167.6, // Average number of tokens per response
-   "max_prompt_tokens": 26, // Maximum number of tokens in a single prompt
-   "max_response_tokens": 220 // Maximum number of tokens in a single response
+   "total_prompts": 50, # Total number of prompts processed
+   "cache_hits": 19, # Number of prompts that were served from cache
+   "tokens_with_cache": 6640, # Total number of tokens processed with cache
+   "tokens_without_cache": 9197, # Total number of tokens processed without cache
+   "price_with_cache": 0.011727699999999994, # Cost incurred with cache usage
+   "price_without_cache": 0.018393999999999997, # Cost incurred without cache usage
+   "price_saved_percent": 36.24170925301732, # Percentage of cost saved by using cache
+   "avg_response_time": 0.17915353298187256, # Average response time in seconds
+   "total_time": 8.957676649093628, # Total time taken for all prompts in seconds
+   "cache_hit_rate": 0.38, # Cache hit rate as a fraction
+   "avg_prompt_tokens": 16.34, # Average number of tokens per prompt
+   "avg_response_tokens": 167.6, # Average number of tokens per response
+   "max_prompt_tokens": 26, # Maximum number of tokens in a single prompt
+   "max_response_tokens": 220 # Maximum number of tokens in a single response
 }
 ```
 
