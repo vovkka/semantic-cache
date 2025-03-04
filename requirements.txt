@@ -1,0 +1,6 @@
+openai>=1.0.0
+numpy>=1.21.0
+faiss-cpu>=1.7.4
+tiktoken>=0.5.0
+sentence-transformers>=2.2.0
+python-dotenv>=1.0.0  # для работы с .env файлами и API ключами
